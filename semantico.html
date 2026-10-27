@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Semantico</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        ul{
+            list-style-type: none;
+            background-color: darkslategrey;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        li{float: left;}
+        li a {
+            color: whitesmoke;
+            padding: 15px;
+            text-decoration: none;
+            display: block;
+        }
+        header, main, aside, footer{ border: 3px solid black;padding: 10px;}
+        .contenido{display: flex;align-items: stretch;}
+        main, aside {width: 50%;}
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+        }
+        thead{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Un documento HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JavaScript</a></li>
+                <li><a href="">React JS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <main>
+            <article>
+                <section>
+                    <h2>Google Chrome</h2>
+                    <p>Occaecat quis tempor dolor anim laboris incididunt est nisi velit cillum irure id. Tempor nisi laborum esse eiusmod dolore incididunt exercitation proident deserunt duis excepteur eu minim amet. Officia in eu nostrud eiusmod officia dolor cillum proident. Dolor tempor dolore ex et. Aliqua et incididunt laboris nulla et id.</p>
+                    <figure>
+                        <img src="https://www.logo.wine/a/logo/Google_Chrome/Google_Chrome-Logo.wine.svg" 
+                        alt="Logo de Google" width="200">
+                        <figcaption>Fig. 1 Logo de google</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <h2>Firefox</h2>
+                    <p>Ipsum dolore proident nisi culpa proident. Duis et aliqua exercitation voluptate reprehenderit nulla. Deserunt adipisicing veniam sint laborum culpa occaecat incididunt amet minim exercitation excepteur. Eiusmod cillum proident nostrud eiusmod duis.</p>
+                </section>
+                <section>
+                    <h2>Edge</h2>
+                    <p>Enim pariatur culpa sint consectetur ipsum. Id pariatur eu reprehenderit veniam ex consequat cillum non quis occaecat exercitation qui id enim. Commodo anim dolor officia quis nisi consequat. Ea culpa in esse enim occaecat id aliquip ex tempor minim ex sunt. Sint sit quis consectetur laborum adipisicing pariatur voluptate ex sit ex laborum ut. Nostrud culpa labore proident dolore fugiat officia aute magna mollit eu ex est reprehenderit.</p>
+                </section>
+            </article>
+        </main>
+        <aside>
+            <section>
+                <h2>Python</h2>
+                <p>Creador: Guido Van Rossum</p>
+            </section>
+            <section>
+                <h2>JavaScript</h2>
+                <p>Creador: Brendan Eich</p>
+            </section>
+            <section>
+                <h2>Lista de usuarios</h2>
+                <table>
+                    <thead>
+                        <tr><th>ID</th><th>Usuario</th><th>Correo</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Alicia</td><td>alicia@gmail.com</td></tr>
+                        <tr><td>2</td><td>Beto</td><td>beto@gmail.com</td></tr>
+                        <tr><td>3</td><td>Eva</td><td>eva@gmail.com</td></tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><td colspan="3">Lista de usuarios activos</td></tr>
+                    </tfoot>
+                </table>
+            </section>
+        </aside>
+    </div>
+    <footer>&copy; Copyright 2026
+        <menu>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Linkedin</a>
+        </menu>
+    </footer>
+</body>
+</html>
